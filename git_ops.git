@@ -1,0 +1,180 @@
+  476  git checkout Develop
+  477  git config config.name
+  478  git config --global user.name "Disledg"
+  479   git config --global user.email disledg@gmail.com
+  480  cd .config/sing-box/
+  481  sudo sing-box run
+  482  amixer
+  483  pulseaudio 
+  484  amixer
+  485  alsamixer
+  486  shutdown
+  487  export https_proxy="127.0.0.1:1080"
+  488  export http_proxy="127.0.0.1:1080"
+  489  sudo pacman -Syu virtualbox virtualbox-host-modules-arch
+  490  sudo pacman -Syu virtualbox virtualbox-host-modules-arch
+  491  cd .config/sing-box/
+  492  sudo sing-box 
+  493  sudo sing-box run
+  494  rebooy
+  495  reboot
+  496  cd /
+  497  ./sbin/vboxconfig
+  498  sudo modprobe vboxdrv
+  499  mkdir git-practice
+  500  cd git-practice/
+  501  git init
+  502  cd ..
+  503  ls
+  504  mkdir git-practice2
+  505  cd git-practice2
+  506  git init
+  507  cd ..
+  508  cd git-practice
+  509  ls
+  510  echo "# Первый репозиторий" > README.md
+  511  git add README.md
+  512  git commit -m "Коммит в first_repo"
+  513  cd ..
+  514  cd git-practice2
+  515  ls
+  516  echo "# Второй репозиторий" > README.md
+  517  git add README.md
+  518  git commit -m "Коммит в second_repo"
+  519  git remote add origin https://github.com/disledg/git-pracktice.git
+  520  git push 
+  521      git push --set-upstream origin master
+  522      git push --set-upstream origin master
+  523      git push --set-upstream origin master
+  524      git push --set-upstream origin master
+  525      git push --set-upstream origin master
+  526      git push --set-upstream origin master
+  527      git push --set-upstream origin master
+  528      git push --set-upstream origin master
+  529      git push --set-upstream origin master
+  530      git push --set-upstream origin master
+  531      git push --set-upstream origin master
+  532  git remote -v
+  533  git config --global credential.helper store
+  534  git push --set-upstream origin master
+  535  git push --set-upstream origin master
+  536  git remote set-url origin https://github.com/disledg/git-pracktice.git
+  537  git remote -v
+  538  git push --set-upstream origin master
+  539  git branch -M main
+  540  git push -u origin main
+  541  git push -u origin main
+  542  git push -u origin main
+  543  cat ~/.ssh/id_ed25519.pub
+  544  ssh-keygen -t ed25519 -C "disledg@gmail.com"
+  545  cat ~/.ssh/id_ed25519.pub
+  546  git push -u origin main
+  547  git remote set-url origin git@github.com:disledg/git-pracktice.git
+  548  git push -u origin main
+  549  git status
+  550  cd ..
+  551  ls
+  552  cd git-practice
+  553  git add remote git@github.com:disledg/git-pracktice.git
+  554  git remote addgit@github.com:disledg/git-pracktice.git
+  555  git remote add git@github.com:disledg/git-pracktice.git
+  556  git remote -v
+  557  git remote add origin git@github.com:disledg/git-pracktice.git
+  558  git push 
+  559      git push --set-upstream origin master
+  560  git merge 
+  561  git merge main
+  562  git checkout
+  563  git merge origin/main
+  564  git merge origin/main --allow-unrelated-histories
+  565  git fetch origin
+  566  ls
+  567  cat README.md 
+  568  git merge origin/main --allow-unrelated-histories
+  569  git pull origin master 
+  570  history > git_operations.txt
+  571  ls
+  572  cat git_operations.txt 
+  573  vim git_operations.txt 
+  574  sed -i '1,498d' git_operations.txt
+  575  vim git_operations.txt 
+  576  rm git_operations.txt 
+  577  history | tail -n 40 > git_operations.txt
+  578  cat git_operations.txt 
+  579  rm git_operations.txt 
+  580  history | tail -n 70 > git_operations.txt
+  581  cat git_operations.txt 
+  582  rm git_operations.txt 
+  583  history | tail -n 100 > git_operations.txt
+  584  cat git_operations.txt 
+  585  rm git_operations.txt 
+  586  history | tail -n 85 > git_operations.txt
+  587  cat git_operations.txt 
+  588  rm git_operations.txt 
+  589  history | tail -n 100 > git_operations.txt
+  590  cat git_operations.txt 
+  591  vim git_operations.txt 
+  592  git add git_operations.txt 
+  593  git push
+  594  git push
+  595  git pull
+  596  git rm README.md 
+  597  git pull
+  598  git fetch
+  599  ls
+  600  ls
+  601  git checkout
+  602  git checkout main
+  603  git add *
+  604  git push
+  605  git push
+  606  ls
+  607  mv git_operations.txt ../
+  608  git fetch
+  609  ls
+  610  ls
+  611  git status
+  612  git push
+  613  ls
+  614  git status
+  615  git branch -d master
+  616  git branch -a
+  617  git switch remotes/origin/main
+  618  git switch remotes/origin/main --detach
+  619  git add *
+  620  git commit -m "chto ya delau"
+  621  git switch remotes/origin/main --detach
+  622  ls
+  623* cat 
+  624  git branch -d origin/master
+  625  git branch -d origin/master --remote
+  626  git branch -D origin/master --remote
+  627  git branch -a
+  628  git branch -D master --remote
+  629  git branch -D master
+  630  git branch -a
+  631  ls
+  632  mv ../git_operations.txt .
+  633  ks
+  634  ls
+  635  cat git_operations.txt 
+  636  vim git_operations.txt 
+  637  git add *
+  638  git commit -m "Мои операции"
+  639  git push
+  640  git status
+  641  git branch -a
+  642  git switch origin/main
+  643  git switch origin/main --detach
+  644  ls
+  645  cd ..
+  646  ls
+  647  cd git-practice
+  648  ls
+  649  git status
+  650  gut branch -a
+  651  git branch -a
+  652  ls
+  653  history | tail -n 150 > git_ops.git
+  654  cat git_ops.git 
+  655  history | tail -n 180 > git_ops.git
